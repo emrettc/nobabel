@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ay" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#ffd27a"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7cc7ff"/></marker>
+  </defs>
+  <rect width="1200" height="560" rx="24" fill="#0e1218"/>
+  <text x="40" y="54" font-size="26" font-weight="700" fill="#f2f4f7">Nasıl çalışır?</text>
+  <text x="40" y="82" font-size="16" fill="#8a93a0">İki bağımsız hat aynı anda çalışır. Her şey bilgisayarında işlenir; ekran kartı gerekmez.</text>
+
+  <!-- GELEN -->
+  <g transform="translate(40 116)">
+    <rect width="1120" height="186" rx="18" fill="#ffd27a" fill-opacity="0.05" stroke="#ffd27a" stroke-opacity="0.35"/>
+    <text x="22" y="36" font-size="17" font-weight="700" fill="#ffd27a">◂ GELEN · karşı taraf konuşur → sen Türkçe okursun</text>
+    <g font-size="15" text-anchor="middle">
+      <g transform="translate(22 62)">
+        <rect width="170" height="96" rx="14" fill="#171c25" stroke="#2a3240"/>
+        <text x="85" y="38" font-size="26">🔈</text>
+        <text x="85" y="66" fill="#f2f4f7" font-weight="600">Toplantı sesi</text>
+        <text x="85" y="86" fill="#8a93a0" font-size="13">hoparlör çıkışı</text>
+      </g>
+      <g transform="translate(238 62)">
+        <rect width="170" height="96" rx="14" fill="#171c25" stroke="#2a3240"/>
+        <text x="85" y="38" font-size="26">〰</text>
+        <text x="85" y="66" fill="#f2f4f7" font-weight="600">Cümle algılama</text>
+        <text x="85" y="86" fill="#8a93a0" font-size="13">sessizlikte böler</text>
+      </g>
+      <g transform="translate(454 62)">
+        <rect width="170" height="96" rx="14" fill="#171c25" stroke="#2a3240"/>
+        <text x="85" y="38" font-size="26">✍</text>
+        <text x="85" y="66" fill="#f2f4f7" font-weight="600">Whisper</text>
+        <text x="85" y="86" fill="#8a93a0" font-size="13">konuşma → yazı</text>
+      </g>
+      <g transform="translate(670 62)">
+        <rect width="170" height="96" rx="14" fill="#171c25" stroke="#2a3240"/>
+        <text x="85" y="38" font-size="26">⇄</text>
+        <text x="85" y="66" fill="#f2f4f7" font-weight="600">Çeviri</text>
+        <text x="85" y="86" fill="#8a93a0" font-size="13">OPUS-MT · Claude</text>
+      </g>
+      <g transform="translate(886 62)">
+        <rect width="212" height="96" rx="14" fill="#ffd27a" fill-opacity="0.12" stroke="#ffd27a" stroke-opacity="0.7"/>
+        <text x="106" y="38" font-size="26">💬</text>
+        <text x="106" y="66" fill="#ffd27a" font-weight="700">Türkçe altyazı</text>
+        <text x="106" y="86" fill="#c9b78f" font-size="13">köşedeki panel (+ ses)</text>
+      </g>
+    </g>
+    <g stroke="#ffd27a" stroke-width="2.5" marker-end="url(#ay)">
+      <path d="M196 110H232"/><path d="M412 110H448"/><path d="M628 110H664"/><path d="M844 110H880"/>
+    </g>
+  </g>
+
+  <!-- GİDEN -->
+  <g transform="translate(40 324)">
+    <rect width="1120" height="186" rx="18" fill="#7cc7ff" fill-opacity="0.05" stroke="#7cc7ff" stroke-opacity="0.35"/>
+    <text x="22" y="36" font-size="17" font-weight="700" fill="#7cc7ff">▸ GİDEN · sen Türkçe konuşursun → karşı taraf kendi dilinde duyar</text>
+    <g font-size="15" text-anchor="middle">
+      <g transform="translate(22 62)">
+        <rect width="170" height="96" rx="14" fill="#171c25" stroke="#2a3240"/>
+        <text x="85" y="38" font-size="26">🎙</text>
+        <text x="85" y="66" fill="#f2f4f7" font-weight="600">Mikrofonun</text>
+        <text x="85" y="86" fill="#8a93a0" font-size="13">Türkçe konuşma</text>
+      </g>
+      <g transform="translate(238 62)">
+        <rect width="170" height="96" rx="14" fill="#171c25" stroke="#2a3240"/>
+        <text x="85" y="38" font-size="26">✍</text>
+        <text x="85" y="66" fill="#f2f4f7" font-weight="600">Whisper</text>
+        <text x="85" y="86" fill="#8a93a0" font-size="13">konuşma → yazı</text>
+      </g>
+      <g transform="translate(454 62)">
+        <rect width="170" height="96" rx="14" fill="#171c25" stroke="#2a3240"/>
+        <text x="85" y="38" font-size="26">⇄</text>
+        <text x="85" y="66" fill="#f2f4f7" font-weight="600">Çeviri</text>
+        <text x="85" y="86" fill="#8a93a0" font-size="13">TR → EN / DE / FR …</text>
+      </g>
+      <g transform="translate(670 62)">
+        <rect width="170" height="96" rx="14" fill="#171c25" stroke="#2a3240"/>
+        <text x="85" y="38" font-size="26">🗣</text>
+        <text x="85" y="66" fill="#f2f4f7" font-weight="600">Doğal ses</text>
+        <text x="85" y="86" fill="#8a93a0" font-size="13">Kokoro · ElevenLabs</text>
+      </g>
+      <g transform="translate(886 62)">
+        <rect width="212" height="96" rx="14" fill="#7cc7ff" fill-opacity="0.12" stroke="#7cc7ff" stroke-opacity="0.7"/>
+        <text x="106" y="38" font-size="26">📞</text>
+        <text x="106" y="66" fill="#7cc7ff" font-weight="700">Sanal mikrofon</text>
+        <text x="106" y="86" fill="#8fb2c9" font-size="13">Meet · Zoom · Teams</text>
+      </g>
+    </g>
+    <g stroke="#7cc7ff" stroke-width="2.5" marker-end="url(#ab)">
+      <path d="M196 110H232"/><path d="M412 110H448"/><path d="M628 110H664"/><path d="M844 110H880"/>
+    </g>
+  </g>
+  <text x="600" y="540" font-size="14" fill="#6f7a89" text-anchor="middle">Ölçülen hız (Intel Core Ultra 5 dizüstü): ilk altyazı ~1,5 sn · senin sesin karşı tarafta ~2,5–3,5 sn</text>
+</svg>
