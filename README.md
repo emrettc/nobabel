@@ -5,12 +5,12 @@
 <h3 align="center">Kendi dilinde konuş. Herkesi anla.</h3>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E2%AC%87%20%C4%B0ndir-Windows-0078d4?style=for-the-badge" alt="Windows için indir"></a>
+  <img src="https://img.shields.io/badge/Windows-yak%C4%B1nda-0078d4?style=for-the-badge" alt="Windows: yakında">
   &nbsp;
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E2%AC%87%20%C4%B0ndir-macOS-111111?style=for-the-badge" alt="macOS için indir"></a>
+  <img src="https://img.shields.io/badge/macOS-yak%C4%B1nda-111111?style=for-the-badge" alt="macOS: yakında">
 </p>
 
-<p align="center"><sub>Kurulum paketleri <a href="../../releases">Releases</a> sayfasında yayınlanır.</sub></p>
+<p align="center"><sub>🚧 Kurulum paketleri hazırlanıyor. Yayınlandığında <a href="../../releases">Releases</a> sayfasından indirilebilecek.</sub></p>
 
 ---
 
@@ -48,6 +48,8 @@ Sen **Türkçe** konuşursun; karşı taraf şu dillerden birini konuşabilir �
 - **Sektörüne uyar:** Firma, ürün ve terim adlarını ekleyerek tanıma doğruluğunu artırabilirsin.
 
 ## Kurulum
+
+> 🚧 **Henüz indirilebilir paket yok.** Aşağıdaki adımlar, kurulum paketleri yayınlandığında geçerli olacak.
 
 <p align="center"><img src="docs/audio-routing.svg" alt="Ses bağlantısı" width="100%"></p>
 
