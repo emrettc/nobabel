@@ -62,7 +62,7 @@ Sen **Türkçe** konuşursun; karşı taraf şu dillerden birini konuşabilir �
 | **5. Toplantıda mikrofon** | `CABLE Output` | `BlackHole 16ch` |
 | **6. İlk açılış** | Modeller bir kez indirilir (~1,3 GB, birkaç dakika) | Modeller bir kez indirilir (~1,3 GB, birkaç dakika) |
 
-👉 **Ekran ekran anlatım, toplantı uygulaması ayarları ve sorun giderme: [KURULUM.md](KURULUM.md)**
+👉 **Adım adım anlatım, toplantı uygulaması ayarları ve sorun giderme: [KURULUM.md](KURULUM.md)**
 
 > 🎧 **Mutlaka kulaklık kullan.** Hoparlörden çıkan ses mikrofona girerse karşı tarafın sözleri senin konuşman gibi çevrilir.
 
