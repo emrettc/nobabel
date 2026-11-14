@@ -14,6 +14,11 @@
 
 <p align="center"><sub>Sürüm 1.0.0 · Windows 10/11 (64 bit) · macOS 12+ · Tüm sürümler: <a href="../../releases">Releases</a></sub></p>
 
+<p align="center">
+  <a href="docs/nobabel-tanitim.mp4"><img src="docs/demo.gif" alt="NoBabel tanıtım videosu" width="540"></a><br>
+  <sub>▶ <a href="docs/nobabel-tanitim.mp4">36 saniyelik tanıtım videosunu izle</a></sub>
+</p>
+
 ---
 
 **NoBabel**, görüntülü toplantılarda **canlı, iki yönlü çeviri** yapan bir masaüstü uygulamasıdır. Google Meet, Zoom, Microsoft Teams ya da sesi bilgisayardan geçen her uygulamayla çalışır.
@@ -41,6 +46,8 @@ Sen **Türkçe** konuşursun; karşı taraf şu dillerden birini konuşabilir �
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 
 ## Öne çıkanlar
+
+<p align="center"><img src="docs/features.png" alt="NoBabel özellikleri" width="100%"></p>
 
 - **Hızlı:** İlk altyazı ~1,5 saniyede; senin sesin sözün bittikten ~2,5–3,5 saniye sonra karşı tarafta. Ekran kartı gerekmez.
 - **Göze batmaz:** Panel her zaman üstte durur ama tıklamalar arkasındaki pencereye geçer, odak çalmaz ve **ekran paylaşımında görünmez** (Windows).
