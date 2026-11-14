@@ -5,12 +5,14 @@
 <h3 align="center">Kendi dilinde konuş. Herkesi anla.</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Windows-yak%C4%B1nda-0078d4?style=for-the-badge" alt="Windows: yakında">
+  <a href="https://github.com/emrettc/nobabel/releases/latest/download/NoBabel-Setup-1.0.0.exe"><img src="https://img.shields.io/badge/%E2%AC%87%20Windows-NoBabel--Setup.exe-0078d4?style=for-the-badge" alt="Windows için indir"></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/macOS-yak%C4%B1nda-111111?style=for-the-badge" alt="macOS: yakında">
+  <a href="https://github.com/emrettc/nobabel/releases/latest/download/NoBabel-1.0.0-macOS-apple-silicon.dmg"><img src="https://img.shields.io/badge/%E2%AC%87%20macOS-Apple%20Silicon-111111?style=for-the-badge" alt="macOS Apple Silicon için indir"></a>
+  &nbsp;
+  <a href="https://github.com/emrettc/nobabel/releases/latest/download/NoBabel-1.0.0-macOS-intel.dmg"><img src="https://img.shields.io/badge/%E2%AC%87%20macOS-Intel-444444?style=for-the-badge" alt="macOS Intel için indir"></a>
 </p>
 
-<p align="center"><sub>🚧 Kurulum paketleri hazırlanıyor. Yayınlandığında <a href="../../releases">Releases</a> sayfasından indirilebilecek.</sub></p>
+<p align="center"><sub>Sürüm 1.0.0 · Windows 10/11 (64 bit) · macOS 12+ · Tüm sürümler: <a href="../../releases">Releases</a></sub></p>
 
 ---
 
@@ -49,23 +51,18 @@ Sen **Türkçe** konuşursun; karşı taraf şu dillerden birini konuşabilir �
 
 ## Kurulum
 
-> 🚧 **Henüz indirilebilir paket yok.** Aşağıdaki adımlar, kurulum paketleri yayınlandığında geçerli olacak.
-
 <p align="center"><img src="docs/audio-routing.svg" alt="Ses bağlantısı" width="100%"></p>
 
-### Windows 10/11
+| | Windows 10/11 | Mac (macOS 12+) |
+|---|---|---|
+| **1. Sanal ses kablosu** (bir kez) | [VB-Audio Virtual Cable](https://vb-audio.com/Cable/) kur, yeniden başlat | [BlackHole 2ch + 16ch](https://existential.audio/blackhole/) kur, yeniden başlat |
+| **2. NoBabel'i indir** | [**NoBabel-Setup.exe**](https://github.com/emrettc/nobabel/releases/latest/download/NoBabel-Setup-1.0.0.exe) | [**Apple Silicon (M1–M4)**](https://github.com/emrettc/nobabel/releases/latest/download/NoBabel-1.0.0-macOS-apple-silicon.dmg) · [**Intel**](https://github.com/emrettc/nobabel/releases/latest/download/NoBabel-1.0.0-macOS-intel.dmg) |
+| **3. Kur** | Çift tıkla → uyarı çıkarsa **Ek bilgi → Yine de çalıştır** → İleri → Kur | `.dmg`'yi aç → NoBabel'i **Applications**'a sürükle → uyarı çıkarsa **Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç** |
+| **4. Ses çıkışı** | 🔊 simgesinden **kulaklığını** seç (“CABLE” değil) | Audio MIDI Setup'ta **Multi-Output Device** (kulaklık + BlackHole 2ch) oluştur ve çıkış yap |
+| **5. Toplantıda mikrofon** | `CABLE Output` | `BlackHole 16ch` |
+| **6. İlk açılış** | Modeller bir kez indirilir (~1,3 GB, birkaç dakika) | Modeller bir kez indirilir (~1,3 GB, birkaç dakika) |
 
-1. [VB-Audio Virtual Cable](https://vb-audio.com/Cable/)'ı kur (zip içindeki `VBCABLE_Setup_x64.exe`, **yönetici olarak**) ve bilgisayarı yeniden başlat.
-2. [Releases](../../releases/latest) sayfasından **Windows kurulum dosyasını** indirip çalıştır.
-3. Görev çubuğundaki 🔊 simgesinden çıkış olarak **kendi kulaklığını** seç (“CABLE” değil).
-4. Toplantı uygulamasında **Mikrofon → `CABLE Output`**, Hoparlör → kulaklığın.
-
-### macOS 12+
-
-1. [BlackHole 2ch ve 16ch](https://existential.audio/blackhole/)'yi kur, Mac'i yeniden başlat.
-2. [Releases](../../releases/latest) sayfasından **macOS paketini** indir ve uygulamayı Programlar'a sürükle.
-3. **Audio MIDI Setup → + → Multi-Output Device**: kulaklığın + BlackHole 2ch. Sistem çıkışını bu cihaz yap.
-4. Toplantı uygulamasında **Mikrofon → `BlackHole 16ch`**, Hoparlör → kulaklığın.
+👉 **Ekran ekran anlatım, toplantı uygulaması ayarları ve sorun giderme: [KURULUM.md](KURULUM.md)**
 
 > 🎧 **Mutlaka kulaklık kullan.** Hoparlörden çıkan ses mikrofona girerse karşı tarafın sözleri senin konuşman gibi çevrilir.
 
@@ -74,7 +71,7 @@ Sen **Türkçe** konuşursun; karşı taraf şu dillerden birini konuşabilir �
 <details>
 <summary><b>İnternet gerekiyor mu?</b></summary>
 
-Yalnızca ilk kurulumda modelleri indirmek için. Sonrasında tamamen çevrimdışı çalışır. Claude çevirisi ya da ElevenLabs/Edge sesleri seçersen bunlar internet kullanır.
+Yalnızca ilk açılışta (ve yeni bir dil seçince) modelleri indirmek için. Sonrasında tamamen çevrimdışı çalışır. Claude çevirisi ya da ElevenLabs/Edge sesleri seçersen bunlar internet kullanır.
 </details>
 
 <details>
@@ -96,6 +93,12 @@ Hayır. iOS, bir uygulamanın başka uygulamaların sesini dinlemesine ve sanal 
 </details>
 
 <details>
+<summary><b>Kurulumda “Windows bilgisayarınızı korudu” / Mac'te “doğrulanamadı” uyarısı çıkıyor.</b></summary>
+
+NoBabel henüz kod imzalı olmadığı için bu uyarılar bir kez çıkar. Windows'ta **Ek bilgi → Yine de çalıştır**; Mac'te **Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç**. Ayrıntılar: [KURULUM.md](KURULUM.md).
+</details>
+
+<details>
 <summary><b>Karşı taraf beni duymuyor ya da altyazı gelmiyor.</b></summary>
 
 Toplantıdaki mikrofonun `CABLE Output` (macOS'ta `BlackHole 16ch`) olduğunu ve bilgisayarın ses çıkışının “CABLE” değil, kendi kulaklığın olduğunu kontrol et. Panel yanlış ayarı fark ederse ⚠ uyarısı gösterir.
@@ -104,9 +107,9 @@ Toplantıdaki mikrofonun `CABLE Output` (macOS'ta `BlackHole 16ch`) olduğunu ve
 <details>
 <summary><b>Bilgisayar gereksinimleri?</b></summary>
 
-Windows 10/11 ya da macOS 12+, 8 GB RAM önerilir, yalnızca İngilizce için ~2 GB, 8 dilin tamamı için ~4,5 GB boş alan. Ekran kartı gerekmez.
+Windows 10/11 (64 bit) ya da macOS 12+, 8 GB RAM önerilir. Uygulama ~250 MB; İngilizce ⇄ Türkçe modelleri ~1,3 GB, her ek dil ~0,5 GB. Ekran kartı gerekmez.
 </details>
 
 ---
 
-<p align="center"><sub>Toplantıdaki kişilere canlı çeviri kullandığını söylemen iyi olur. · Kullanılan açık kaynak modeller ve lisansları kurulum paketindeki lisans dosyasında listelenir.</sub></p>
+<p align="center"><sub>Toplantıdaki kişilere canlı çeviri kullandığını söylemen iyi olur. · Kullanılan açık kaynak bileşenler ve lisansları uygulama klasöründeki THIRD_PARTY_LICENSES.md dosyasındadır.</sub></p>
